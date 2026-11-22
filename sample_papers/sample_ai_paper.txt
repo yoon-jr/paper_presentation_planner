@@ -1,0 +1,23 @@
+Lightweight Multi-Agent Planning for Academic Paper Presentations
+Jane Kim, Min Park, and Alex Lee
+
+Abstract
+Academic paper presentations require students to understand the research problem, summarize the proposed method, explain experimental results, and discuss limitations. However, many students struggle to convert a dense paper into a clear slide structure. This paper presents a lightweight multi-agent planning system that decomposes paper understanding into specialized tasks such as structure parsing, problem analysis, method analysis, contribution extraction, slide planning, speaker-note generation, and question preparation. The proposed system is designed to produce reproducible outputs without depending on expensive external services.
+
+1. Introduction
+Reading and presenting research papers is a common activity in university courses and research seminars. The challenge is that a paper contains many details, but a presentation must be concise and audience-friendly. Students often spend too much time deciding what should be placed on each slide. The goal of this work is to support paper presentation preparation by automatically generating a structured summary and slide-by-slide plan.
+
+2. Related Work
+Prior work on summarization has focused on extracting important sentences or generating abstractive summaries. Presentation generation systems often require full document understanding and user customization. Recent agentic systems divide complex tasks into smaller subtasks handled by specialized agents. This approach is suitable for academic presentation planning because different parts of a paper require different analysis skills.
+
+3. Method
+The proposed method uses a sequential multi-agent workflow. First, a loader agent reads the input paper and normalizes the text. Second, a structure agent identifies the title, authors, abstract, and sections. Third, a problem agent extracts the research motivation and problem statement. Fourth, a method agent summarizes the proposed method and technical approach. Fifth, a contribution and limitation agent reviews the strengths and weaknesses of the work. Finally, presentation agents generate a slide plan, speaker notes, and expected questions.
+
+4. Experiments
+We evaluated the system on a small set of academic-style documents. The evaluation focused on whether the generated slide plans contained essential presentation components: motivation, problem, method, experiments, contributions, limitations, and conclusion. Compared with a single-step baseline prompt, the multi-agent workflow produced more complete and better organized outlines. The system also generated useful question-and-answer items for seminar preparation.
+
+5. Discussion
+The system is useful for early-stage presentation preparation, but it has limitations. Since it relies on text extraction and rule-based analysis, it may miss complex mathematical details or figures. It may also require manual correction when the paper has an unusual structure. Future work could integrate visual figure extraction, citation analysis, and external LLM-based refinement.
+
+6. Conclusion
+This paper introduced a lightweight multi-agent system for academic paper summarization and presentation planning. By separating the workflow into specialized agents, the system can produce a structured summary, slide plan, speaker notes, and expected Q&A items. The approach is practical for students because it is easy to run and does not require a complex deployment environment.

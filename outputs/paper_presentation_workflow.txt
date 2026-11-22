@@ -1,0 +1,18 @@
+Workflow: CrewAI role/task metadata initialized.
+Workflow: Hugging Face LLM enhancement is enabled; HF_TOKEN detected.
+Paper Loader Agent: Loaded 68780 characters from C:\Users\82102\OneDrive\바탕 화면\grpo.pdf.
+Paper Structure Agent: Parsed 3 sections and 12 keywords.
+Problem and Motivation Agent: Used deterministic fallback because LLM enhancement was unavailable.
+Problem and Motivation Agent: Identified research problem and motivation.
+Method Analysis Agent: Used deterministic fallback because LLM enhancement was unavailable.
+Method Analysis Agent: Summarized the proposed method or approach.
+Contribution and Limitation Agent: Used deterministic fallback because LLM enhancement was unavailable.
+Contribution and Limitation Agent: Extracted contributions and limitations.
+Slide Planner Agent: Used deterministic fallback because LLM enhancement was unavailable.
+Slide Planner Agent: Created a 8-slide presentation plan.
+Speaker Notes Agent: Used deterministic fallback because LLM enhancement was unavailable.
+Speaker Notes Agent: Generated speaker notes for the slide plan.
+Q&A Preparation Agent: Used deterministic fallback because LLM enhancement was unavailable.
+Q&A Preparation Agent: Prepared expected Q&A items.
+Quality Review Agent: Used deterministic fallback because LLM enhancement was unavailable.
+Quality Review Agent: Reviewed final output quality.
