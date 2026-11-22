@@ -1,4 +1,4 @@
-# Homework #2 Brief Report
+# Brief Report
 
 # LLM 기반 논문 요약·발표자료 기획 Agentic System
 

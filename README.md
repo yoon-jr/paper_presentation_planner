@@ -1,4 +1,4 @@
-# Homework #2: LLM-Based Paper Summary and Presentation Planner
+# LLM-Based Paper Summary and Presentation Planner
 
 This project implements a CrewAI-based agentic system that summarizes an academic paper and generates a presentation plan. It uses Hugging Face LLM enhancement by default when `HF_TOKEN` is available, and falls back to a deterministic local pipeline when the token or network is unavailable.
 
